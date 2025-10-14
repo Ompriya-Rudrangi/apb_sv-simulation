@@ -1,0 +1,16 @@
+vlib work 
+vmap work work top.svh
+#Compile all SystemVerilog files
+#vlog apb_interface.sv 
+#vlog apb_config_db.sv
+#vlog apb_bfm.sv
+#vlog apb_dut.sv
+#vlog apb_mon.sv
+#vlog apb_tx.sv
+#vlog apb_gen.sv
+#vlog apb_scb.sv
+#vlog apb_env.sv
+#vlog apb_test.sv
+vlog apb_tb_top.sv  apb_interface.sv  apb_dut.sv 
+
+vsim -voptargs=+acc work.apb_tb_top
