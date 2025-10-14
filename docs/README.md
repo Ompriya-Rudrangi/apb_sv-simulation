@@ -19,7 +19,6 @@ apb_linux/ ├── apb_interface.sv ├── apb_config_db.sv ├── apb_b
 1. Open your terminal in the project folder:
    ```bash
    cd /mnt/c/MasterVlsi/apb/apb_sir/apb_linux
-   type : 
          source  Makefile.sh
 
 
@@ -38,8 +37,9 @@ Includes automatic signal grouping and color-coded interface signals.
 - GitHub for project hosting
  
 
-👤 AuthorOm Priya
+👤 Author  Om Priya
 Design Verification Engineer
 B.Tech in Electronics and Communication Engineering
 MasterVLSI Institute — Design Verification Training📬 ----.
+
 
